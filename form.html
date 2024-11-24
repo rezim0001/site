@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo^_^</title>
+
+    <script src="https://kit.fontawesome.com/78bc8d4d61.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            margin: 4px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url("images/cartoon-ai-robot-scene.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .login-form {
+            max-width: 220vh;
+            height: 40vh;
+            margin: 100px auto;
+            padding: 70px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         
+        }
+
+        .login-form h2 {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .login-form label {
+            color: white;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login-form input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            background: red;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background: teal;
+        }
+        
+        .refrence{
+            padding: 10px;
+            margin: auto;
+            
+        }
+        
+        .refrence{
+            position: absolute;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  
+
+    <div class="login-form">
+        <h2>Login</h2>
+        <form action="Layout.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+            <input type="submit" value="Login" />
+            <p class=" refrence">*Note this page is just for refrence so, write anything in login form or Press <em>Login.</em></p>
+            
+        </form>
+    </div>
+
+</body>
+</html>
